@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Oswald&display=swap');
+
+body {
+  background-color: snow;
+  font-family: 'Oswald', sans-serif;
+  min-height: 500px;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cronometro {
+  margin-top: -25vh;
+  width: 425px;
+}
+
+.cronometro .logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.cronometro .logo img {
+  height: 125px;
+  width: 110px;
+}
+
+.cronometro .tempo {
+  font-size: 6em;
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  padding-bottom: 15px;
+  left: 15px;
+}
+
+.cronometro .tempo .milissegundo {
+  font-size: 3rem;
+  padding-left: 10px;
+}
+
+.cronometro .tempo span {
+  align-self: baseline;
+}
+
+.cronometro .controles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cronometro .controles button {
+  background-color: #555555;
+  color: aliceblue;
+  outline: none;
+  display: inline;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-color: cadetblue;
+  border-radius: 12px;
+  min-width: 100px;
+  padding: 10px 0;
+}
+
+.Rodape {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 0.7em;
+    padding: 5px;
+    margin-top: 40px;
+}
